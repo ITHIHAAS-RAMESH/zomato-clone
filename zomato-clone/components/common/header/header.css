@@ -1,0 +1,95 @@
+.header-container{
+    max-width: 1100px;
+    display: flex;
+    margin: 10px auto;
+    align-items: center;
+}
+
+.zomato-logo{
+    width: 127px;
+    height: 27px;
+}
+.search-location-container{
+    width: 704px;
+    height: 54px;
+    background: rgb(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: rgb(28 28 28 / 8%) 0px 2px 8px;
+    border: 1px solid rgb(232, 232, 232);
+    display: flex;
+    align-items: center;
+    margin: 0px 22px;
+    
+}
+
+.location{
+    display:flex;
+    flex: 1;
+    max-width: 232.5px;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.search-pin{
+    width: 22px;
+    height: 22px;
+}
+.location-name{
+    font-size: 15px;
+    color: grey;
+    margin-left: 5px;
+    border: none;
+    outline: none;
+}
+.caret{
+    width: 12px;
+    height: 12px;
+    margin: 0px 0px 0px auto;
+    cursor: pointer;
+}
+
+.separator{
+    width: 1px;
+    height: 20px;
+    background-color: rgb(156, 156, 156);
+}
+.search-container{
+    padding: 0px 15px;
+    display: flex;
+    gap: 10px;
+    flex: 2;
+    
+}
+.search-icon{
+    width: 25px;
+    height: 25px;
+}
+.search-text{
+    width: 300px;
+    letter-spacing: 0.8px;
+    border: none;
+    font-size: 13px;
+    font-weight: 100;
+    outline: none;
+}
+
+
+
+.buttons{
+    display: flex;
+    flex: 1;
+    margin-left: 40px;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 400;
+}
+
+.ls-button{
+    width: 67px;
+    font-size: 18px;
+    color: #696969;
+    cursor: pointer;
+}
+.ls-button:hover{
+    color: black;
+}

@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&display=swap');
+
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.slick-next:before,
+.slick-prev:before{
+    color: #696969;
+    font-size: 34px;
+}

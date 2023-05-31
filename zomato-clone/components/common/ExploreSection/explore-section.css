@@ -1,0 +1,18 @@
+.explore-section-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.explore-section-inner-wrapper{
+    width: 1100px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.explore-card-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 23px;
+}
+

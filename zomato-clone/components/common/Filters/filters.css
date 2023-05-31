@@ -1,0 +1,31 @@
+
+.filter-container-inner{
+    width: 1100px;
+    display: flex;
+    gap: 15px;
+}
+
+
+.filter-image{
+    width: 18px;
+    height: 18px;
+}
+
+.filter-text{
+    font-size: 14px;
+    
+}
+.filter:hover{
+    background-color: #c3c2c224;
+}
+
+
+.filter{
+    display: flex;
+    width: max-content;
+    align-items: center;
+    cursor: pointer;
+    padding: 8px;
+    gap: 5px;
+    border-radius: 7px;
+}
